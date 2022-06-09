@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Unique auto parts",
+        "cartegory": "Menufecturer Website",
+        "technologies": [
+            "react",
+            "tailwind",
+            "daisy ui",
+            "firebase",
+            "node",
+            "mongodb",
+            "express"
+        ],
+        "img": "https://i.ibb.co/myDyH1q/unique.png",
+        "description": "Single page ract application authentication with fireabase. user can order and make paymetn using card. admin can make new admin, add product, delete product. api secure with jwt token",
+        "live": "https://unique-auto-parts.web.app/",
+        "client": "https://github.com/abusayeed4bd/unique-auto-client",
+        "server": "https://github.com/abusayeed4bd/unique-auto-server"
+    },
+    {
+        "name": "Broker Gill - land broker",
+        "cartegory": "Broker Website",
+        "technologies": [
+            "react",
+            "firebase",
+            "bootstrap"
+        ],
+        "img": "https://i.ibb.co/xzZJf4r/broker.png",
+        "description": "Independent service provider website with react, bootstrap and authentication with firebae. user can book a service by login. booking page is protected with react router",
+        "live": "https://react-broker-website.web.app/",
+        "client": "https://github.com/abusayeed4bd/broker-gill-client"
+    },
+    {
+        "name": "Star warehouse",
+        "cartegory": "Inventory Management Website",
+        "technologies": [
+            "react",
+            "firabase",
+            "bootstrap",
+            "node",
+            "mongodb",
+            "express"
+        ],
+        "img": "https://i.ibb.co/X5XSmKB/inventory.png",
+        "description": "Warehouse management website. Product details page protected with react router. user can update product quantity, add new product and delete their added product",
+        "live": "https://react-node-mongo-warehouse.web.app/",
+        "client": "https://github.com/abusayeed4bd/start-warehouse-client-side",
+        "server": "https://github.com/abusayeed4bd/star-warehouse-server-side"
+    }
+]

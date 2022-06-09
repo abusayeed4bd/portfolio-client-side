@@ -41,6 +41,7 @@ const Banner = () => {
             </div>
 
         </div>
+
     );
 };
 

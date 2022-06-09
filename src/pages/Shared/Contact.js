@@ -38,7 +38,7 @@ const Contact = () => {
 
 
                 <div class="card  flex-shrink-0 w-full max-w-sm lg:max-w-lg shadow-2xl bg-base-100 lg:w-50">
-                    <h1 class="lg:text-5xl  text-xl font-bold !text-primary  text-red-500 pt-4">Send a message</h1>
+                    <h1 class="lg:text-5xl uppercase  text-xl font-bold !text-primary  text-red-500 pt-4"><span className='text-secondary'> Send a</span> message</h1>
                     <div class="card-body">
                         <form onSubmit={handleMessageSend}>
 
@@ -59,7 +59,7 @@ const Contact = () => {
                                 <label class="label">
                                     <span class="label-text">Message</span>
                                 </label>
-                                <textarea name="message" className='input input-bordered h-[150px]' name="message" id="" cols="30" rows="10" required></textarea>
+                                <textarea name="message" className='input input-bordered h-[150px]' id="" cols="30" rows="10" required></textarea>
 
                             </div>
                             <div class="form-control mt-6">
