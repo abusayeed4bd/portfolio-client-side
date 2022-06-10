@@ -15,7 +15,7 @@ const About = () => {
                         <p class="py-6 text-xl text-slate-500">Self motivated and creative web developer and seo expert who is passionate about web development and enjoy working on projects that challenge me to think outside the box. I ensure 100% client satisfaction and always like to update me with new trends and technology</p>
 
                         <div className="text-left">
-                            <h2 className="text-secondary text-center text-4xl font-bold">
+                            <h2 className="text-secondary text-left text-4xl font-bold">
                                 Skills:
                             </h2>
                             <p className='text-xl text-slate-500'><strong className='text-secondary'>Expertise:</strong> HTML, CSS, Javascript, ES6, React js, React router, Bootstrap, Tailwind CSS, Daisy UI</p>

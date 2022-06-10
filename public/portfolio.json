@@ -82,5 +82,6 @@
         "features2": [
             "user can add new product and see their added product from the manage product page",
             "there will be delete button by clicking this button user can delete their added product"
-        }
-    ]
+        ]
+    }
+]

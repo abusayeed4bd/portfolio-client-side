@@ -11,7 +11,7 @@ const Banner = () => {
             <div class="hero-content text-center">
                 <div class="">
                     <h1 class="text-4xl  text-base-100">Hi, I am</h1>
-                    <h1 class="lg:text-7xl  text-5xl font-black !text-primary uppercase py-5 text-red-500 shadow-lg">Abu Sayeed Ibrahim</h1>
+                    <h1 class="lg:text-7xl  text-5xl font-black !text-primary uppercase py-5 text-red-500 ">Abu Sayeed Ibrahim</h1>
                     <h1 class="text-3xl  text-base-100 inline-block">
                         <Typewriter class="inline-block"
                             options={{

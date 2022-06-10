@@ -10,7 +10,7 @@ const Project = () => {
     if (isLoading) {
         return <Loading></Loading>;
     }
-    const { img, name, cartegory, description, client, live, server } = project;
+    const { img, img1, img2, name, cartegory, description, client, live, server, features1, features2 } = project;
     console.log(project);
 
     return (
@@ -28,6 +28,22 @@ const Project = () => {
                 </h2>
                 <p className="text-xl text-bold">{description}</p>
             </div>
+            <div className="card-body">
+                <figure><img className="rounded-xl shadow-md" src={img1} alt="Shoes" /></figure>
+
+                <ul className="text-left  mt-5">
+                    {
+                        features1.map(p1 => <li className="text-xl">&#8667; {p1}</li>)
+                    }
+                </ul>
+                <figure><img className="rounded-xl shadow-md" src={img2} alt="Shoes" /></figure>
+                <ul className="text-left  mt-5 ">
+                    {
+                        features2.map(p1 => <li className="text-xl">&#8667; {p1}</li>)
+                    }
+                </ul>
+            </div>
+
         </div>
     );
 };

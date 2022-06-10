@@ -52,7 +52,7 @@ const Contact = () => {
                                 <label class="label">
                                     <span class="label-text">Email</span>
                                 </label>
-                                <input type="email" name='name' placeholder="Email" class="input input-bordered" required />
+                                <input type="email" name='email' placeholder="Email" class="input input-bordered" required />
 
                             </div>
                             <div class="form-control">
@@ -63,7 +63,7 @@ const Contact = () => {
 
                             </div>
                             <div class="form-control mt-6">
-                                <input type="submit" className='btn btn-primary text-white' value='send email' />
+                                <input type="submit" className='btn btn-primary text-white' value='send message' />
                             </div>
                         </form>
                     </div>
