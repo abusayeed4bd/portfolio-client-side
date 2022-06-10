@@ -8,6 +8,7 @@ import About from './pages/About/About';
 import Project from './pages/Home/Project';
 import NotFound from './pages/NotFound/NotFound';
 import Contact from './pages/Shared/Contact';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/project/:id' element={<Project></Project>}></Route>
-
+        <Route path='/contact' element={<ContactPage></ContactPage>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>

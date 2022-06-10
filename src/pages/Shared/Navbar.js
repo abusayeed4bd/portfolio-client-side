@@ -7,7 +7,7 @@ const Navbar = () => {
         <li><Link className='font-semibold text-lg' to='/'>Home</Link></li>
         <li><Link className='font-semibold text-lg' to='/about'>About</Link></li>
         <li><Link className='font-semibold text-lg' to='/blog'>Blog</Link></li>
-        <li><Link className='font-semibold text-lg' to='/#contact'>Contact</Link></li>
+        <li><Link className='font-semibold text-lg' to='/contact'>Contact</Link></li>
     </>
     return (
         <div class="navbar bg-base-100 sticky top-0 shadow-lg bg-base-100 z-50">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn btn-primary text-white">Get started</a>
+                <Link className='btn btn-primary py-0 text-white' to="/contact" >hire me</Link>
             </div>
         </div>
     );

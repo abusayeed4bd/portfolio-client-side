@@ -15,7 +15,20 @@
         "description": "Single page ract application authentication with fireabase. user can order and make paymetn using card. admin can make new admin, add product, delete product. api secure with jwt token",
         "live": "https://unique-auto-parts.web.app/",
         "client": "https://github.com/abusayeed4bd/unique-auto-client",
-        "server": "https://github.com/abusayeed4bd/unique-auto-server"
+        "server": "https://github.com/abusayeed4bd/unique-auto-server",
+        "img1": "https://i.ibb.co/3p01QXY/unique-Dashboard.png",
+        "img2": "https://i.ibb.co/2hWzYpJ/unique-Login.png",
+        "features1": [
+            "User login system with google firebase",
+            "Secured Product order page With a private route, users must log in to access it.",
+            "All user has personal dashboard they can add reviews, see all orders and make payments using the card"
+        ],
+        "features2": [
+            "Admin has access to see all orders, make new admin and update their profile",
+            "Login form validation with react hook form",
+            "secure api with jwt web token",
+            "token validation using local storage"
+        ]
     },
     {
         "name": "Broker Gill - land broker",
@@ -28,7 +41,20 @@
         "img": "https://i.ibb.co/xzZJf4r/broker.png",
         "description": "Independent service provider website with react, bootstrap and authentication with firebae. user can book a service by login. booking page is protected with react router",
         "live": "https://react-broker-website.web.app/",
-        "client": "https://github.com/abusayeed4bd/broker-gill-client"
+        "client": "https://github.com/abusayeed4bd/broker-gill-client",
+        "img1": "https://i.ibb.co/y8qVJD2/broker-Service.png",
+        "img2": "https://i.ibb.co/5LYPZt4/broker-Login.png",
+        "features1": [
+            "User login system with google firebase",
+            "Secured Product order page With a private route, users must log in to access it.",
+            "All user has personal dashboard they can add reviews, see all orders and make payments using the card"
+        ],
+        "features2": [
+            "Admin has access to see all orders, make new admin and update their profile",
+            "Login form validation with react hook form",
+            "secure api with jwt web token",
+            "token validation using local storage"
+        ]
     },
     {
         "name": "Star warehouse",
@@ -45,6 +71,16 @@
         "description": "Warehouse management website. Product details page protected with react router. user can update product quantity, add new product and delete their added product",
         "live": "https://react-node-mongo-warehouse.web.app/",
         "client": "https://github.com/abusayeed4bd/start-warehouse-client-side",
-        "server": "https://github.com/abusayeed4bd/star-warehouse-server-side"
-    }
-]
+        "server": "https://github.com/abusayeed4bd/star-warehouse-server-side",
+        "img1": "https://i.ibb.co/KzL1vp2/warehouse-Product.png",
+        "img2": "https://i.ibb.co/gFKtbky/warehouse-Dashboard.png",
+        "features1": [
+            "User login system with google firebase",
+            "Secured Product order page With a private route, users must log in to access it.",
+            "user can add product quantity or decrease by clicking delivered button on the product details page."
+        ],
+        "features2": [
+            "user can add new product and see their added product from the manage product page",
+            "there will be delete button by clicking this button user can delete their added product"
+        }
+    ]
