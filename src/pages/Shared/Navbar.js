@@ -5,9 +5,9 @@ import logo from '../../assets/image/logo.png'
 const Navbar = () => {
     const navItem = <>
         <li><Link className='font-semibold text-lg' to='/'>Home</Link></li>
-        <li><Link className='font-semibold text-lg' to='/'>About</Link></li>
-        <li><Link className='font-semibold text-lg' to='/'>Portfolio</Link></li>
-        <li><Link className='font-semibold text-lg' to='/'>Contact</Link></li>
+        <li><Link className='font-semibold text-lg' to='/about'>About</Link></li>
+        <li><Link className='font-semibold text-lg' to='/blog'>Blog</Link></li>
+        <li><Link className='font-semibold text-lg' to='/#contact'>Contact</Link></li>
     </>
     return (
         <div class="navbar bg-base-100 sticky top-0 shadow-lg bg-base-100 z-50">
@@ -20,7 +20,7 @@ const Navbar = () => {
                         {navItem}
                     </ul>
                 </div>
-                <img src={logo} alt="" />
+                <Link to="/" ><img src={logo} alt="" /></Link>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">

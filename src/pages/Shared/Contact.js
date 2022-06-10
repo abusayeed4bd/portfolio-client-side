@@ -32,7 +32,7 @@ const Contact = () => {
 
     return (
 
-        <div style={{ background: `url(${contact}) no-repeat center center` }} class="hero py-12 ">
+        <div id='contact' style={{ background: `url(${contact}) no-repeat center center` }} class="hero py-12 ">
 
             <div class="hero-content  flex-col lg:flex-row-reverse g-12 lg:w-[90%] mx-auto">
 

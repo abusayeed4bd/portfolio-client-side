@@ -1,14 +1,20 @@
 import React, { useEffect, useState } from 'react';
+import { useQuery } from 'react-query';
 import unique from '../../assets/image/unique.png'
+import CardLoading from '../Shared/CardLoading';
 import SinglePortfolio from './SinglePortfolio';
 
 const Portfolio = () => {
-    const [portfolio, setPortfolio] = useState([])
-    useEffect(() => {
-        fetch('https://abusayeed-ibrahim.herokuapp.com/projects')
-            .then(res => res.json())
-            .then(data => setPortfolio(data))
-    }, [])
+    // const [portfolio, setPortfolio] = useState([])
+    // useEffect(() => {
+    //     fetch('https://abusayeed-ibrahim.herokuapp.com/projects')
+    //         .then(res => res.json())
+    //         .then(data => setPortfolio(data))
+    // }, [])
+    const { data: portfolio, isLoading } = useQuery('portfolio', () => fetch('https://abusayeed-ibrahim.herokuapp.com/projects').then(res => res.json()))
+    if (isLoading) {
+        return <CardLoading></CardLoading>
+    }
     return (
         <div className='py-12 lg:w-[90%] lg:mx-auto  mx-5'>
             <h1 class="lg:text-5xl uppercase text-3xl font-bold !text-primary  text-red-500 my-8"> <span className="text-secondary">Latest</span> projects</h1>
