@@ -17,7 +17,7 @@ const Portfolio = () => {
     }
     return (
         <div className='py-12 lg:w-[90%] lg:mx-auto  mx-5'>
-            <h1 class="lg:text-5xl uppercase text-3xl font-bold !text-primary  text-red-500 my-8"> <span className="text-secondary">Latest</span> projects</h1>
+            <h1 data-aos="zoom-in" data-aos-duration="1500" class="lg:text-5xl uppercase text-3xl font-bold !text-primary   my-8"> <span className="text-secondary">Latest</span> projects</h1>
 
             <div className='grid grid-cos-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
                 {

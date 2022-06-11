@@ -9,8 +9,12 @@ import Project from './pages/Home/Project';
 import NotFound from './pages/NotFound/NotFound';
 import Contact from './pages/Shared/Contact';
 import ContactPage from './pages/ContactPage/ContactPage';
+import Footer from './pages/Shared/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <Navbar></Navbar>
@@ -25,6 +29,7 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>
+      <Footer></Footer>
 
     </div>
   );

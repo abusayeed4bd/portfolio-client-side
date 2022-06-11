@@ -18,7 +18,9 @@ const Project = () => {
             <figure><img src={img} alt="Shoes" /></figure>
             <div className='grid  grid-cols-3'>
                 <a className='btn lg:btn-primary btn-link lg:w-1/2 mx-auto text-primary  lg:text-white m-2' href={client} >Client side code</a>
-                <a className='btn lg:btn-primary btn-link lg:w-1/2 mx-auto text-primary  lg:text-white m-2' href={server} >Server side code</a>
+                {
+                    server && <a className='btn lg:btn-primary btn-link lg:w-1/2 mx-auto text-primary  lg:text-white m-2' href={server} >Server side code</a>
+                }
                 <a className='btn lg:btn-primary btn-link lg:w-1/2 mx-auto text-primary  lg:text-white m-2' href={live} >Live Link</a>
             </div>
             <div class="card-body text-left">

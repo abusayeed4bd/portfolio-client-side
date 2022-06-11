@@ -32,12 +32,12 @@ const Contact = () => {
 
     return (
 
-        <div id='contact' style={{ background: `url(${contact}) no-repeat center center` }} class="hero py-12 ">
+        <div id='contact' style={{ background: `url(${contact}) no-repeat center center` }} class="hero py-8 my-0">
 
             <div class="hero-content  flex-col lg:flex-row-reverse g-12 lg:w-[90%] mx-auto">
 
 
-                <div class="card  flex-shrink-0 w-full max-w-sm lg:max-w-lg shadow-2xl bg-base-100 lg:w-50">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="card  flex-shrink-0 w-full max-w-sm lg:max-w-lg shadow-2xl bg-base-100 lg:w-50">
                     <h1 class="lg:text-5xl uppercase  text-xl font-bold !text-primary  text-red-500 pt-4"><span className='text-secondary'> Send a</span> message</h1>
                     <div class="card-body">
                         <form onSubmit={handleMessageSend}>
