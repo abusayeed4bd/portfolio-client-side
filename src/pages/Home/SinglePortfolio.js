@@ -5,7 +5,7 @@ const SinglePortfolio = ({ portfolioItem }) => {
     const { _id, img, name, cartegory, technologies, description, live, client, server } = portfolioItem;
 
     return (
-        <div data-aos="zoom-in" data-aos-duration="1000" class="card !shadow card-compact bg-base-100 h-[400px] !hover:shadow-xl mx-auto">
+        <div data-aos="zoom-in" data-aos-duration="700" class="card !shadow card-compact bg-base-100 h-[400px] !hover:shadow-xl mx-auto">
             <figure><img src={img} alt="Shoes" /></figure>
             <div class="card-body  text-left relative">
                 <h2 class="card-title text-primary text-2xl font-bold uppercase">{name}</h2>

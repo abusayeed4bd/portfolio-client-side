@@ -8,7 +8,7 @@ const About = () => {
             <div class="hero  bg-base-100">
 
                 <div class="hero-content flex-col lg:flex-row">
-                    <img src={about} class="max-w-sm rounded-lg shadow-2xl" alt='abusayeed' />
+                    <img src={about} class="max-w-xs lg:max-w-sm rounded-lg shadow-2xl" alt='abusayeed' />
                     <div className="lg:text-left lg:ml-5">
                         <h3 className="text-secondary text-3xl font-bold">I am</h3>
                         <h1 class="text-3xl lg:text-5xl text-primary font-bold">Abu Sayeed Muhammd Ibrahim</h1>

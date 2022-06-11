@@ -10,9 +10,9 @@ const Banner = () => {
         <div style={{ background: `url(${banner})` }} class="hero min-h-screen bg-base-200">
             <div class="hero-content text-center">
                 <div class="">
-                    <h1 data-aos="zoom-in" data-aos-duration="500" class="text-4xl  text-base-100">Hi, I am</h1>
+                    <h1 data-aos="zoom-in" data-aos-duration="500" class="text-3xl lg:text-4xl  text-base-100">Hi, I am</h1>
                     <h1 data-aos="zoom-in" data-aos-duration="500" class="lg:text-7xl  text-5xl font-black !text-primary uppercase py-5  ">Abu Sayeed Ibrahim</h1>
-                    <h1 data-aos="zoom-in" data-aos-duration="500" class="text-3xl  text-base-100 inline-block">
+                    <h1 data-aos="zoom-in" data-aos-duration="500" class="text-2xl lg:text-4xl  text-base-100 inline-block">
                         <Typewriter class="inline-block"
                             options={{
                                 strings: ['I am a Front-end Developer', 'I work with javascript', 'react js', 'mongo db', 'and', 'express js'],
