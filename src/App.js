@@ -12,12 +12,14 @@ import ContactPage from './pages/ContactPage/ContactPage';
 import Footer from './pages/Shared/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import ScrollToTop from './pages/Shared/scrollToTop';
 
 function App() {
   AOS.init();
   return (
     <div className="App">
       <Navbar></Navbar>
+      <ScrollToTop></ScrollToTop>
       <Routes>
         <Route path='/' element={<Home></Home>}>
 
